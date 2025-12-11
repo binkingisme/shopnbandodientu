@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\xampp\\htdocs\\admin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\admin\\controllers\\ProductsController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\ProductsController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\admin\\models\\UsersModel.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\UsersModel.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\admin\\views\\HomeView.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\HomeView.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\admin\\models\\CategoriesModel.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\CategoriesModel.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\admin\\controllers\\ProductsController.php",
+              "RelativeDocumentMoniker": "controllers\\ProductsController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\admin\\controllers\\ProductsController.php",
+              "RelativeToolTip": "controllers\\ProductsController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T14:17:13.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersModel.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\admin\\models\\UsersModel.php",
+              "RelativeDocumentMoniker": "models\\UsersModel.php",
+              "ToolTip": "D:\\xampp\\htdocs\\admin\\models\\UsersModel.php",
+              "RelativeToolTip": "models\\UsersModel.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T12:50:17.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeView.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\admin\\views\\HomeView.php",
+              "RelativeDocumentMoniker": "views\\HomeView.php",
+              "ToolTip": "D:\\xampp\\htdocs\\admin\\views\\HomeView.php",
+              "RelativeToolTip": "views\\HomeView.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T12:50:03.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesModel.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\admin\\models\\CategoriesModel.php",
+              "RelativeDocumentMoniker": "models\\CategoriesModel.php",
+              "ToolTip": "D:\\xampp\\htdocs\\admin\\models\\CategoriesModel.php",
+              "RelativeToolTip": "models\\CategoriesModel.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T11:27:11.108Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

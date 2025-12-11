@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 	//load file model
 	include "models/ProductsModel.php";
 	class ProductsController extends Controller{
@@ -19,7 +19,17 @@
 		//chi tiet san pham
 		public function detail(){
 			$id = isset($_GET["id"])&&is_numeric($_GET["id"])?$_GET["id"]:0;
+			// Lấy record từ model vào biến $record (tên dùng trong view)
 			$record = $this->modelGetRecord($id);
+
+			// Nếu không tìm thấy sản phẩm, bạn có thể redirect hoặc show 404.
+			if(!$record){
+			    // ví dụ redirect về trang danh mục
+			    header("Location: index.php?controller=products&action=categories");
+			    exit;
+			}
+
+			// Gọi view và truyền $record
 			$this->loadView("ProductsDetailView.php",["record"=>$record]);
 		}
 		//danh gia so sao

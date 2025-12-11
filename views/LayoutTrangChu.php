@@ -19,6 +19,8 @@
 <link href='assets/frontend/100/047/633/themes/517833/assets/owl.carousel221b.css?1481775169361' rel='stylesheet' type='text/css' />
 <link href='assets/frontend/100/047/633/themes/517833/assets/responsive221b.css?1481775169361' rel='stylesheet' type='text/css' />
 <link href='assets/frontend/100/047/633/themes/517833/assets/styles.scss221b.css?1481775169361' rel='stylesheet' type='text/css' />
+<!-- Mailchimp embed stylesheet (recommended) -->
+<link href="https://cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" />
 <script src='assets/frontend/100/047/633/themes/517833/assets/jquery.min221b.js?1481775169361' type='text/javascript'></script>
 <script src='assets/frontend/100/047/633/themes/517833/assets/bootstrap.min221b.js?1481775169361' type='text/javascript'></script>
 <script src='assets/frontend/assets/themes_support/api.jquerya87f.js?4' type='text/javascript'></script>
@@ -93,6 +95,9 @@ s0.parentNode.insertBefore(s1,s0);
         <!-- end slide --> 
       </div>
     </div>
+
+   
+
     <div class="row">
       <div class="col-xs-12 col-md-12"> 
         <!-- main -->
@@ -131,6 +136,51 @@ s0.parentNode.insertBefore(s1,s0);
     </div>
   </div>
 </div> -->
+
+ <!-- Mailchimp signup: placed on homepage under slider -->
+    <div class="row" style="margin-top:18px;">
+      <div class="col-xs-12 col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+          <div class="panel-heading"><strong>Đăng ký nhận bản tin</strong></div>
+          <div class="panel-body">
+            <div id="mc_embed_signup">
+              <form action="https://gmail.us1.list-manage.com/subscribe/post?u=0020cce5e7af159df51865d11&amp;id=0fe275917d&amp;f_id=003e40e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <h4 style="margin-top:0;margin-bottom:12px;">Subscribe</h4>
+                  <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                  <div class="mc-field-group" style="margin-top:8px;">
+                    <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" name="EMAIL" class="required email form-control" id="mce-EMAIL" required value="">
+                  </div>
+                  <div class="mc-field-group" style="margin-top:8px;">
+                    <label for="mce-LNAME">Last Name </label>
+                    <input type="text" name="LNAME" class="text form-control" id="mce-LNAME" value="">
+                  </div>
+
+                  <div id="mce-responses" class="clear" style="margin-top:10px;">
+                    <div class="response" id="mce-error-response" style="display:none;color:#a94442;background:#f2dede;padding:8px;border-radius:4px;"></div>
+                    <div class="response" id="mce-success-response" style="display:none;color:#3c763d;background:#dff0d8;padding:8px;border-radius:4px;"></div>
+                  </div>
+
+                  <!-- honeypot - keep hidden -->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_0020cce5e7af159df51865d11_0fe275917d" tabindex="-1" value="">
+                  </div>
+
+                  <div class="optionalParent" style="margin-top:12px;">
+                    <div class="clear">
+                      <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" value="Subscribe">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Mailchimp signup -->
+
 <footer id="footer">
   <div class="top-footer">
     <div class="container">
@@ -209,6 +259,23 @@ s0.parentNode.insertBefore(s1,s0);
     </div>
   </div>
 </footer>
+
+<!-- Mailchimp validation script -->
+<script src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+<script type="text/javascript">
+(function($) {
+  window.fnames = new Array(); window.ftypes = new Array();
+  fnames[0]='EMAIL';ftypes[0]='email';
+  fnames[2]='LNAME';ftypes[2]='text';
+  fnames[1]='FNAME';ftypes[1]='text';
+  fnames[3]='ADDRESS';ftypes[3]='address';
+  fnames[4]='PHONE';ftypes[4]='phone';
+  fnames[5]='BIRTHDAY';ftypes[5]='birthday';
+  fnames[6]='COMPANY';ftypes[6]='text';
+}(jQuery));
+var $mcj = jQuery.noConflict(true);
+</script>
+
 <script src='assets/frontend/100/047/633/themes/517833/assets/owl.carousel.min221b.js?1481775169361' type='text/javascript'></script> 
 <script src='assets/frontend/100/047/633/themes/517833/assets/responsive-menu221b.js?1481775169361' type='text/javascript'></script> 
 <script src='assets/frontend/100/047/633/themes/517833/assets/elevate-zoom221b.js?1481775169361' type='text/javascript'></script> 

@@ -10,6 +10,12 @@
 <meta name="robots" content="noodp,index,follow" />
 <meta name='revisit-after' content='1 days' />
 <meta name="keywords" content="">
+<?php
+// Nếu view đã thiết lập $this->og_meta thì in vào head để Facebook đọc được
+if (isset($this->og_meta)) {
+    echo $this->og_meta;
+}
+?>
 <title>Media Mart</title>
 <link rel="shortcut icon" href="assets/frontend/100/047/633/themes/517833/assets/favicon221b.png" type="image/x-icon" />
 <link href='assets/frontend/100/047/633/themes/517833/assets/font-awesome.min221b.css?1481775169361' rel='stylesheet' type='text/css' />
@@ -101,7 +107,7 @@
               <!-- end list hot news --> 
               <!-- list hot news -->
               <div class="item">
-                <div class="article"> <a href="index.php?controller=news_detail&id=17" class="image"> <img src="assets/frontend/images/anhbia.jpg" alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?" title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?" class="img-responsive"> </a>
+                <div class="article"> <a href="index.php?controller=news_detail&id=17" class="image"> <img src="assets/frontend/images/anhbia.jpg" alt="Mua Macbook và Macbook Air Plus chính hãng ở đâu?" title="Mua Macbook và Macbook Air Plus chính hãng ở đâu?" class="img-responsive"> </a>
                   <div class="info">
                     <h3><a href="index.php?controller=news_detail&id=17">Samsung và Oppo tiếp tục thống trị thị trường đầu năm 2017 tại Việt Nam</a></h3>
                     <p class="desc">
@@ -153,7 +159,7 @@
       </div>
     </div>
     <!-- adv -->
-    <div class="widebanner"> <a href="#"><img src="assets/frontend/100/047/633/themes/517833/assets/widebanner221b.jpg" alt="#" class="img-responsive"></a> </div>
+    <div class="widebanner"> <a href="#"><img src="assets/frontend/100/047/633/themes/517833/assets/widebanner221b.jpg?1481775169361" alt="#" class="img-responsive"></a> </div>
     <!-- end adv --> 
     
   </div>

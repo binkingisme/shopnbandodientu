@@ -1,7 +1,31 @@
 <?php 
   //load LayoutTrangChu.php
   $this->layoutPath = "LayoutTrangTrong.php";
- ?>
+
+  // Open Graph: require config + helper, build product data từ $record và lưu meta vào $this->og_meta
+  require_once __DIR__ . '/../config.php';
+  require_once __DIR__ . '/../libs/og.php';
+
+  if (isset($record)) {
+      // tính giá sau giảm (numeric)
+      $discount = isset($record->discount) ? $record->discount : 0;
+      $priceRaw = isset($record->price) ? $record->price : 0;
+      $finalPrice = $priceRaw - ($priceRaw * $discount / 100);
+
+      $product = [
+          'id' => isset($record->id) ? $record->id : '',
+          'name' => isset($record->name) ? $record->name : '',
+          'description' => !empty(trim(strip_tags(@$record->description))) ? strip_tags($record->description) : strip_tags(@$record->content),
+          'image' => !empty($record->photo) ? 'assets/upload/products/' . $record->photo : '',
+          'price' => $finalPrice
+      ];
+
+      // capture output của render_product_og_tags vào property controller ($this->og_meta)
+      ob_start();
+      render_product_og_tags($product);
+      $this->og_meta = ob_get_clean();
+  }
+?>
 <div class="top">
   <div class="row">
     <div class="col-xs-12 col-md-6 product-image">
@@ -97,6 +121,91 @@
       <p itemprop="price" class="price-box product-price-box"> <span class="special-price"> <span class="price product-price"> <?php echo number_format($record->price-($record->price*$record->discount)/100); ?>₫ </span></span></p>
     </p>
     <a href="index.php?controller=cart&action=create&id=<?php echo $record->id; ?>" class="btn btn-primary">Cho vào giỏ hàng</a>
+
+    <!-- Share buttons -->
+    <?php
+      // build absolute product URL cho nút share
+      $productUrl = rtrim(BASE_URL, '/') . '/index.php?controller=products&action=detail&id=' . urlencode($record->id);
+      $productNameJs = json_encode($record->name);
+      $productUrlJs = json_encode($productUrl);
+    ?>
+    <div class="product-share" style="margin-top:12px;">
+      <button id="btnShareFb" class="btn btn-primary" type="button" aria-label="Share to Facebook">Chia sẻ lên Facebook</button>
+      <button id="btnShareIg" class="btn btn-instagram" type="button" aria-label="Share to Instagram">Chia sẻ lên Instagram</button>
+      <button id="btnCopyLink" class="btn btn-default" type="button" aria-label="Sao chép liên kết">Sao chép liên kết</button>
+    </div>
+    <style>
+      .btn-instagram{ background: #E1306C; color:#fff; border-color: #E1306C; margin-left:8px; }
+      .product-share .btn{ margin-right:6px; }
+    </style>
+
+    <script type="text/javascript">
+      (function(){
+        var productUrl = <?php echo $productUrlJs; ?>;
+        var productName = <?php echo $productNameJs; ?>;
+
+        // Facebook: mở sharer.php (preview dùng Open Graph meta)
+        document.getElementById('btnShareFb').addEventListener('click', function(e){
+          var url = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(productUrl);
+          window.open(url, 'fbshare', 'width=600,height=400');
+        });
+        
+        // Instagram: dùng Web Share API nếu có (sẽ hiện Instagram trong share sheet trên mobile nếu cài)
+        document.getElementById('btnShareIg').addEventListener('click', function(e){
+          if (navigator.share) {
+            navigator.share({
+              title: productName,
+              text: productName,
+              url: productUrl
+            }).catch(function(err){
+              // không cần xử lý
+            });
+          } else {
+            // fallback: copy link và hướng dẫn người dùng dán trong Instagram (story hoặc bio)
+            copyToClipboard(productUrl).then(function(){
+              alert('Liên kết sản phẩm đã được sao chép. Mở Instagram và dán liên kết trong mô tả bài hoặc story (nếu có chức năng).');
+            }).catch(function(){
+              // fallback 2: mở product URL để người dùng sử dụng chia sẻ app
+              window.open(productUrl, '_blank');
+            });
+          }
+        });
+        
+        // Copy link button
+        document.getElementById('btnCopyLink').addEventListener('click', function(){
+          copyToClipboard(productUrl).then(function(){
+            alert('Đã sao chép liên kết sản phẩm vào clipboard.');
+          }).catch(function(){
+            prompt('Sao chép liên kết sản phẩm:', productUrl);
+          });
+        });
+
+        // hàm copy an toàn
+        function copyToClipboard(text){
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            return navigator.clipboard.writeText(text);
+          }
+          return new Promise(function(resolve, reject){
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.left = '-9999px';
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+              var ok = document.execCommand('copy');
+              document.body.removeChild(textarea);
+              if (ok) resolve();
+              else reject();
+            } catch (err) {
+              document.body.removeChild(textarea);
+              reject(err);
+            }
+          });
+        }
+      })();
+    </script>
+
     <!-- rating -->
     <div style="border:1px solid #dddddd; margin-top: 15px;">
       <h4 style="padding-left: 10px;">Rating</h4>

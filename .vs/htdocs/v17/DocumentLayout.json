@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\xampp\\htdocs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\controllers\\ProductsController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\ProductsController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\libs\\og.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:libs\\og.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\views\\ProductsDetailView.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\ProductsDetailView.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\views\\ContactView.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\ContactView.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\views\\HeaderView.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\HeaderView.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\views\\LayoutTrangChu.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\LayoutTrangChu.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\views\\LayoutTrangTrong.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\LayoutTrangTrong.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\admin\\controllers\\ProductsController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:admin\\controllers\\ProductsController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\config.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\admin\\views\\ProductsView.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:admin\\views\\ProductsView.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\views\\ProductsCategoriesView.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\ProductsCategoriesView.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\views\\CartView.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\CartView.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\views\\AccountRegisterView.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\AccountRegisterView.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\views\\AccountLoginView.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\AccountLoginView.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\controllers\\AccountController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\AccountController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\models\\ProductsModel.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\ProductsModel.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\controllers\\CartController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\CartController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\controllers\\ContactController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\ContactController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\controllers\\HeaderController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\HeaderController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\controllers\\HomeController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\HomeController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\controllers\\NewsController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\NewsController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\controllers\\SearchController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\SearchController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\xampp\\htdocs\\controllers\\WishlistController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\WishlistController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\index.php",
+              "RelativeDocumentMoniker": "index.php",
+              "ToolTip": "D:\\xampp\\htdocs\\index.php",
+              "RelativeToolTip": "index.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-11T15:34:21.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LayoutTrangChu.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\views\\LayoutTrangChu.php",
+              "RelativeDocumentMoniker": "views\\LayoutTrangChu.php",
+              "ToolTip": "D:\\xampp\\htdocs\\views\\LayoutTrangChu.php",
+              "RelativeToolTip": "views\\LayoutTrangChu.php",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAuwLIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-11T15:31:24.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeaderView.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\views\\HeaderView.php",
+              "RelativeDocumentMoniker": "views\\HeaderView.php",
+              "ToolTip": "D:\\xampp\\htdocs\\views\\HeaderView.php",
+              "RelativeToolTip": "views\\HeaderView.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T08:03:14.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactView.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\views\\ContactView.php",
+              "RelativeDocumentMoniker": "views\\ContactView.php",
+              "ToolTip": "D:\\xampp\\htdocs\\views\\ContactView.php",
+              "RelativeToolTip": "views\\ContactView.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T08:03:08.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsDetailView.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\views\\ProductsDetailView.php",
+              "RelativeDocumentMoniker": "views\\ProductsDetailView.php",
+              "ToolTip": "D:\\xampp\\htdocs\\views\\ProductsDetailView.php",
+              "RelativeToolTip": "views\\ProductsDetailView.php",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAI8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T07:54:59.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "og.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\libs\\og.php",
+              "RelativeDocumentMoniker": "libs\\og.php",
+              "ToolTip": "D:\\xampp\\htdocs\\libs\\og.php",
+              "RelativeToolTip": "libs\\og.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T07:49:14.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\controllers\\ProductsController.php",
+              "RelativeDocumentMoniker": "controllers\\ProductsController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\controllers\\ProductsController.php",
+              "RelativeToolTip": "controllers\\ProductsController.php",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T12:47:05.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LayoutTrangTrong.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\views\\LayoutTrangTrong.php",
+              "RelativeDocumentMoniker": "views\\LayoutTrangTrong.php",
+              "ToolTip": "D:\\xampp\\htdocs\\views\\LayoutTrangTrong.php",
+              "RelativeToolTip": "views\\LayoutTrangTrong.php",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAuwPIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T08:27:21.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsCategoriesView.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\views\\ProductsCategoriesView.php",
+              "RelativeDocumentMoniker": "views\\ProductsCategoriesView.php",
+              "ToolTip": "D:\\xampp\\htdocs\\views\\ProductsCategoriesView.php",
+              "RelativeToolTip": "views\\ProductsCategoriesView.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T08:05:08.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductsController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\admin\\controllers\\ProductsController.php",
+              "RelativeDocumentMoniker": "admin\\controllers\\ProductsController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\admin\\controllers\\ProductsController.php",
+              "RelativeToolTip": "admin\\controllers\\ProductsController.php",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-11T02:37:49.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductsView.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\admin\\views\\ProductsView.php",
+              "RelativeDocumentMoniker": "admin\\views\\ProductsView.php",
+              "ToolTip": "D:\\xampp\\htdocs\\admin\\views\\ProductsView.php",
+              "RelativeToolTip": "admin\\views\\ProductsView.php",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T08:05:29.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "config.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\config.php",
+              "RelativeDocumentMoniker": "config.php",
+              "ToolTip": "D:\\xampp\\htdocs\\config.php",
+              "RelativeToolTip": "config.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T07:35:10.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartView.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\views\\CartView.php",
+              "RelativeDocumentMoniker": "views\\CartView.php",
+              "ToolTip": "D:\\xampp\\htdocs\\views\\CartView.php",
+              "RelativeToolTip": "views\\CartView.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T08:03:06.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountRegisterView.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\views\\AccountRegisterView.php",
+              "RelativeDocumentMoniker": "views\\AccountRegisterView.php",
+              "ToolTip": "D:\\xampp\\htdocs\\views\\AccountRegisterView.php",
+              "RelativeToolTip": "views\\AccountRegisterView.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T08:03:05.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountLoginView.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\views\\AccountLoginView.php",
+              "RelativeDocumentMoniker": "views\\AccountLoginView.php",
+              "ToolTip": "D:\\xampp\\htdocs\\views\\AccountLoginView.php",
+              "RelativeToolTip": "views\\AccountLoginView.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T08:03:00.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductsModel.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\models\\ProductsModel.php",
+              "RelativeDocumentMoniker": "models\\ProductsModel.php",
+              "ToolTip": "D:\\xampp\\htdocs\\models\\ProductsModel.php",
+              "RelativeToolTip": "models\\ProductsModel.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T04:10:19.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\controllers\\CartController.php",
+              "RelativeDocumentMoniker": "controllers\\CartController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\controllers\\CartController.php",
+              "RelativeToolTip": "controllers\\CartController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T12:47:02.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\controllers\\AccountController.php",
+              "RelativeDocumentMoniker": "controllers\\AccountController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\controllers\\AccountController.php",
+              "RelativeToolTip": "controllers\\AccountController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T12:47:01.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HeaderController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\controllers\\HeaderController.php",
+              "RelativeDocumentMoniker": "controllers\\HeaderController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\controllers\\HeaderController.php",
+              "RelativeToolTip": "controllers\\HeaderController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T12:47:04.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ContactController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\controllers\\ContactController.php",
+              "RelativeDocumentMoniker": "controllers\\ContactController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\controllers\\ContactController.php",
+              "RelativeToolTip": "controllers\\ContactController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T12:47:03.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\controllers\\HomeController.php",
+              "RelativeDocumentMoniker": "controllers\\HomeController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\controllers\\HomeController.php",
+              "RelativeToolTip": "controllers\\HomeController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-09T03:38:34.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NewsController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\controllers\\NewsController.php",
+              "RelativeDocumentMoniker": "controllers\\NewsController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\controllers\\NewsController.php",
+              "RelativeToolTip": "controllers\\NewsController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T12:47:04.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SearchController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\controllers\\SearchController.php",
+              "RelativeDocumentMoniker": "controllers\\SearchController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\controllers\\SearchController.php",
+              "RelativeToolTip": "controllers\\SearchController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T12:47:06.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WishlistController.php",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\controllers\\WishlistController.php",
+              "RelativeDocumentMoniker": "controllers\\WishlistController.php",
+              "ToolTip": "D:\\xampp\\htdocs\\controllers\\WishlistController.php",
+              "RelativeToolTip": "controllers\\WishlistController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-12-08T12:47:05.977Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
