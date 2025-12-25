@@ -2,6 +2,12 @@
 	//load LayoutTrangChu.php
 	$this->layoutPath = "LayoutTrangTrong.php";
  ?>
+
+<?php if(isset($_SESSION["flash_message"])): ?>
+  <div class="alert alert-info" style="margin: 10px 0;">
+    <?php echo $_SESSION["flash_message"]; unset($_SESSION["flash_message"]); ?>
+  </div>
+<?php endif; ?>
  	<div class="template-cart">
           <form action="index.php?controller=cart&action=update" method="post">
             <div class="table-responsive">
@@ -44,13 +50,18 @@
             
             <div class="total-cart"> Tổng tiền thanh toán:
               <?php echo number_format($this->cartTotal()); ?>₫ <br>
-              <a href="index.php?controller=cart&action=checkout"  class="button black">Thanh toán</a> 
-              <div style="text-align: center;" class="total-cart">Hình thức thanh toán online</div>
+              <a href="index.php?controller=cart&action=checkout"  class="button black">Thanh toán</a>
 
+              <div style="text-align: center;" class="total-cart">Hình thức thanh toán online</div>
+              <a href="index.php?controller=cart&action=vnpayCreate" class="button black" style="margin-left:8px;">Thanh toán VNPay</a>
               <?php 
               $vnd_to_usd = round($this->cartTotal()/23000,2);
               ?>
-              <div style="width: 300px;" id="paypal-payment-button"></div>
+              <!-- Replace PayPal default placement with a button that visually matches VNPay button.
+                   Clicking it will instantiate PayPal Buttons and immediately open the PayPal flow. -->
+              <a href="#" id="paypal-payment-button" class="button black" style="margin-left:8px; display:inline-block;">Thanh toán PayPal</a>
+              <div id="paypal-temp" style="display:none;"></div>
+
                 <input type="hidden" id="vnd_to_usd" 
                 value="<?php echo $vnd_to_usd; ?>">
             </div>
@@ -63,30 +74,71 @@
 </script>
 <script>
   var usd = document.getElementById("vnd_to_usd").value;
-  paypal.Buttons({
-  style: {
-      color: 'blue',
-      shape: 'pill'
-  },
-  createOrder:function(data, actions){
-    return actions.order.create({
-      purchase_units:[{
-        amount:{
-          value:`${usd}`
+
+  // When user clicks our styled PayPal anchor, create and render PayPal Buttons into a hidden container,
+  // then trigger a programmatic click on the generated button to open the PayPal checkout.
+  document.getElementById('paypal-payment-button').addEventListener('click', function(e){
+    e.preventDefault();
+
+    var btnAnchor = this;
+    btnAnchor.setAttribute('disabled', 'disabled');
+    btnAnchor.style.opacity = '0.6';
+
+    // Render PayPal Buttons into hidden container and then trigger the internal button
+    paypal.Buttons({
+      style: {
+          layout: 'vertical',
+          color: 'blue',
+          shape: 'pill'
+      },
+      createOrder: function(data, actions){
+        return actions.order.create({
+          purchase_units:[{
+            amount:{
+              value: `${usd}`
+            }
+          }]
+        });
+      },
+      onApprove: function(data, actions){
+        return actions.order.capture().then(function(details){
+          console.log(details);
+          alert("Xử lý thanh toán thành công, bấm THANH TOÁN để hoàn tất");
+          // optionally redirect or call your server to finalize the order
+          // window.location.href = 'index.php?controller=cart&action=checkoutSuccess';
+        });
+      },
+      onCancel: function(data){
+        alert("Xử lý thanh toán thất bại");
+      },
+      onError: function(err){
+        console.error(err);
+        alert("Lỗi khi kết nối PayPal");
+      }
+    }).render('#paypal-temp').then(function(){
+      // try to find a button element inside the rendered PayPal area and click it
+      // (this opens the PayPal popup/flow)
+      setTimeout(function(){
+        var hiddenBtn = document.querySelector('#paypal-temp button');
+        if(hiddenBtn){
+          hiddenBtn.click();
+        } else {
+          // fallback: show the rendered container to let user click manually
+          document.getElementById('paypal-temp').style.display = 'block';
+          btnAnchor.style.display = 'none';
         }
-      }]
+        // re-enable anchor after a delay so the user can retry if needed
+        setTimeout(function(){
+          btnAnchor.removeAttribute('disabled');
+          btnAnchor.style.opacity = '';
+        }, 3000);
+      }, 300);
+    }).catch(function(err){
+      console.error(err);
+      alert('Không thể khởi tạo PayPal. Vui lòng thử lại sau.');
+      btnAnchor.removeAttribute('disabled');
+      btnAnchor.style.opacity = '';
     });
-  },
-  onApprove:function (data, actions){
-    return actions.order.capture().then(function(details){
-      console.log(details);
-      alert("Xử lý thanh toán thành công, bấm THANH TOÁN để hoàn tất");
-    }) 
-    destroy();
-  },
-  onCancel:function(data){
-    alert("Xử lý thanh toán thất bại")
-  }
-}).render('#paypal-payment-button');
+  });
 </script>
 

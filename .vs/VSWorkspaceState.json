@@ -1,11 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\controllers",
+    "\\admin",
+    "\\admin\\controllers",
+    "\\admin\\models",
+    "\\admin\\views",
+    "\\application",
     "\\document",
     "\\libs",
     "\\models",
     "\\views"
   ],
+  "SelectedNode": "\\admin\\views\\NewsView.php",
   "PreviewInSolutionExplorer": false
 }

@@ -9,7 +9,7 @@
 			//---
 			//lay bien ket noi
 			$conn = Connection::getInstance();
-			$query = $conn->query("select * from users order by id desc limit $from,$recordPerPage");
+			$query = $conn->query("select * from admin order by id desc limit $from,$recordPerPage");
 			//lay tat ca ket qua tra ve
 			$result = $query->fetchAll();
 			//---
@@ -19,7 +19,7 @@
 		public function modelTotal(){
 			//lay bien ket noi
 			$conn = Connection::getInstance();
-			$query = $conn->query("select id from users");
+			$query = $conn->query("select id from admin");
 			//ham rowCount: dem so ket qua tra ve
 			return $query->rowCount();
 		}
@@ -27,7 +27,7 @@
 		public function modelGetRecord($id){
 			//lay bien ket noi
 			$conn = Connection::getInstance();
-			$query = $conn->query("select * from users where id=$id");
+			$query = $conn->query("select * from admin where id=$id");
 			//tra ve mot ban ghi
 			return $query->fetch();
 		}
@@ -40,11 +40,11 @@
 			//update cot name
 			//lay bien ket noi
 			$conn = Connection::getInstance();
-			$query = $conn->prepare("update users set name=:_name where id=:_id");
+			$query = $conn->prepare("update admin set name=:_name where id=:_id");
 			$query->execute([":_name"=>$name,":_id"=>$id]);
 			//neu password khong rong thi update password
 			if($password != ""){
-				$query = $conn->prepare("update users set password=:_password where id=:_id");
+				$query = $conn->prepare("update admin set password=:_password where id=:_id");
 				$query->execute([":_password"=>$password,":_id"=>$id]);
 			}
 		}
@@ -57,14 +57,14 @@
 			//update cot name
 			//lay bien ket noi
 			$conn = Connection::getInstance();
-			$query = $conn->prepare("insert into users set name=:_name, email=:_email, password=:_password");
+			$query = $conn->prepare("insert into admin set name=:_name, email=:_email, password=:_password");
 			$query->execute([":_name"=>$name,":_email"=>$email,":_password"=>$password]);
 		}
 		//xoa ban ghi
 		public function modelDelete($id){
 			//lay bien ket noi
 			$conn = Connection::getInstance();
-			$conn->query("delete from users where id=$id");
+			$conn->query("delete from admin where id=$id");
 		}
 	}
  ?>
